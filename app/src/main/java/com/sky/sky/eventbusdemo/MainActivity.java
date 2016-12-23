@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.sky.sky.eventbusdemo.event.FromMainToFirstEvent;
@@ -27,6 +28,9 @@ import org.greenrobot.eventbus.ThreadMode;
  * Activity之间的传值
  */
 public class MainActivity extends AppCompatActivity {
+
+    //练习提交
+    TextView textView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
